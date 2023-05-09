@@ -134,7 +134,7 @@ public class Profissional extends Atleta implements Serializable {
     public static double totalPagarTipoAtleta(ArrayList<Atleta> lista) {
         double totalPagar = 0;
         for (Atleta i : lista) {
-            if (i instanceof Profissional) { ///oi o piirirdvv
+            if (i instanceof Profissional) {
                 totalPagar += i.calcularPgtoMensal();
             }
         }
